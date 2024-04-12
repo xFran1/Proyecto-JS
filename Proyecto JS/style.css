@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+.imagen-atencionCliente{
+    font-size: 25px;
+}
+
+.atencionCliente-texto{
+font-size: 14px;
+}
+.atencionCliente-num{
+    font-size: 15px;
+
+}
+.container-indice-atencionCliente{
+    width: 120px;
+    padding: 10px;
+}
+.atencionCliente{
+    text-align: center;
+}
+
+.container-indice{
+    display: flex;
+    background-color: rgba(243, 246, 246, 0.595);
+}
+
+.container-inicio{
+    width: 120px; 
+    
+}
+
+.container-nombrePag{
+    position: absolute;
+    top: 42px;
+    left: 50%; /* Lo movemos hacia la derecha la mitad de su anchura */
+    transform: translate(-50%, -50%);
+}
+
+.container-usuario{
+    position: absolute;
+    top: 44px;
+    left: 84%; /* Lo movemos hacia la derecha la mitad de su anchura */
+    transform: translate(-50%, -50%); 
+    font-size: 30px;
+}
+.container-carrito{
+    display: flex;
+    position: absolute;
+    top: 42px;
+    left: 92%; /* Lo movemos hacia la derecha la mitad de su anchura */
+    transform: translate(-50%, -50%); 
+}
+
+.container-carrito-texto{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.container-indice-inferior{
+    background: linear-gradient(to right,#ffe259,#ffa751);
+    height: 50px;
+}
+
+.container-indice-inferior-dentro{
+    display: flex;
+    margin-left: 300px;
+    font-size: 14px;
+    gap: 50px;
+    padding-top: 15px;
+    
+}
